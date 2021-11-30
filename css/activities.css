@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+.title{
+    background-color: rgba(0, 0, 0, .3);
+    width: 455px;
+    margin-left: 45px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+h1{
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 52px;
+}
+h1 span{
+    color: #0077b5;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.small-img-row{
+    display: flex;
+    background: rgba(0, 0, 0, .3);
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+}
+.small-img{
+    position: relative;
+}
+.small-img img{
+    width: 160px;
+}
+.small-img-row p, .feature-img p{
+    margin-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 15px;
+    text-align: justify;
+}
+.feature-img p{
+    background: rgba(0, 0, 0, .3);
+    margin-left: 0px;
+    padding-left: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.small-img-row span, .feature-img span{
+    font-weight: bold;
+    color: #0077b5;
+    font-size: 18px;
+}
+
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+video:focus{
+    outline: none;
+}

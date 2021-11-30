@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Activities</title>
+        <link rel="stylesheet" href="../css/activities.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title">
+                        <h1><span>Fly</span>Abania Activities</h1> 
+                    </div>
+                    <div class="feature-img">
+                        <img src="../images/activities/rafting.jpg" width="100%">
+                        <img src="../images/activities/play.png" class="play-btn"
+                        onclick="playvideo('../video/activitiesvideo/rafting.mp4')">
+                        <p>
+                            <span>Rafting</span><br>Are you the adventurous type that likes to hit the rapids on your own? Or do you prefer to take in the scenery while learning.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="../images/activities/kayaking.jpg">
+                            <img src="../images/activities/play.png" class="play-btn"
+                            onclick="playvideo('../video/activitiesvideo/kayaking.mp4')">
+                        </div>
+                        <p> 
+                            <span>Kayaking</span><br>Traveling in a kayak feels like you're tricking the universe. The kayak has the impression of being vulnerable because it's so small, but once you gain.
+                        </p>
+                    </div>
+
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="../images/activities/paragliding.jpg">
+                            <img src="../images/activities/play.png" class="play-btn"
+                            onclick="playvideo('../video/activitiesvideo/paragliding.mp4')">
+                        </div>
+                        <p> 
+                            <span>Paragliding</span><br>For those seeking Adventure in Albania, paragliding is a safe & unforgettable activity. It gives you an absolute sense of freedom, magical images, relaxation, joy.
+                        </p>
+                    </div>
+
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="../images/activities/scubadiving.jpg">
+                            <img src="../images/activities/play.png" class="play-btn"
+                            onclick="playvideo('../video/activitiesvideo/scubadiving.mp4')">
+                        </div>
+                        <p> 
+                            <span>Scuba Diving</span><br>If you haven’t tried Scuba diving yet, here's your chance to try out and get to know the basics of scuba diving and see the beauties of the sea.
+                        </p>
+                    </div>
+
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="../images/activities/zipline.jpg">
+                            <img src="../images/activities/play.png" class="play-btn"
+                            onclick="playvideo('../video/activitiesvideo/zipline.mp4')">
+                        </div>
+                        <p> 
+                            <span>Zip Line</span><br>If you are a fan of extreme sports or if you love nature then the zip line is an experience that will be unforgettable!
+                        </p>
+                    </div>
+
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="../images/activities/skiing.jpg">
+                            <img src="../images/activities/play.png" class="play-btn"
+                            onclick="playvideo('../video/activitiesvideo/skiing.mp4')">
+                        </div>
+                        <p> 
+                            <span>Skiing</span><br>Skiing is a means of transport using skis to glide on snow. Variations of purpose include basic transport, a recreational activity, or a competitive winter sport.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-player" id="videoplayer">
+            <video width="100%" controls autoplay muted id="myvideo">
+                <source src="../video/activitiesvideo/rafting.mp4" type="video/mp4">
+            </video>
+            <img src="../images/activities/close.png" class="close-btn"
+            onclick="stopvideo()">
+        </div>
+    </body>
+    <script src="../js/activities.js"></script>
+</html>

@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Transportation</title>
+        <link rel="stylesheet" href="../css/transportation.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <h1 class="logo"><span>Fly</span>Albania Transportation</h1>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-left">
+                <div class="contents">
+                    <h1><span>Fly</span>Albania</h1>
+                    <div class="form-container">
+                        <form>
+                            <h3>Choose Transport</h3>
+                            <span>Pick up your transport</span>
+                            <input list="trans" name="trans" type="text" placeholder="Type of trasport">
+                            <datalist id="trans">
+                                <option value="Car"></option>
+                                <option value="Bus"></option>
+                            </datalist>
+
+                            <span>Pick up your location</span>
+                            <input list="city" name="city" type="text" placeholder="Choose your location">
+                            <datalist id="city">
+                                <option>Berat</option>
+                                <option>Diber</option>
+                                <option>Durres</option>
+                                <option>Elbasan</option>
+                                <option>Fier</option>
+                                <option>Gjirokaster</option>
+                                <option>Korce</option>
+                                <option>Kukes</option>
+                                <option>Lezhe</option>
+                                <option>Shkoder</option>
+                                <option>Tirane</option>
+                                <option>Vlore</option>
+                            </datalist>
+        
+                            <span>Arrivals</span>
+                            <input type="datetime-local">
+    
+                            <span>Leaving</span>
+                            <input type="datetime-local">
+
+                            <span>Passengers</span>
+                            <input type="number" placeholder="How many people">
+    
+                            <input class="btn" type="submit" value="Choose">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

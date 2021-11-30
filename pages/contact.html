@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Contact Us</h2>
+            </div>
+            <form id="form" class="form" method="GET" onsubmit="return checkform();">
+                <div class="form-control">
+                    <label for="fullname">Fullname</label>
+                    <input type="text" placeholder="Your fullname..." id="fullname"/>
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="fullname">Email</label>
+                    <input type="email" placeholder="e.g. someone@example.com" id="email" />
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="fullname">Password</label>
+                    <input type="password" placeholder="Password" id="password"/>
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="fullname">Message</label>
+                    <input type="text" placeholder="Your message...">
+                    <i class="fa fa-check-circle"></i>
+                    <i class="fa fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="social-panel-container">
+            <div class="social-panel">
+                <p>
+                    <a target="_blank" href="../index.html">FlyAlbania</a>
+                </p>
+                <button class="close-btn"><i class="fa fa-times"></i></button>
+                <h4>Connect With Us</h4>
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa fa-instagram" style="color: #e84393;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa fa-facebook" style="color: blue;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa fa-twitter" style="color: #00bcd4;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa fa-google" style="color: #e84118;"></i>
+                        </a>
+                    </li>
+                   <li>
+                        <a href="" target="_blank">
+                            <i class="fa fa-linkedin" style="color: #001F61;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+        <button class="floating-btn">
+            Connect Us
+        </button>
+
+        <div class="contact-info">
+            <h3 class="title" id="title"></h3>
+            <div class="info">
+              <div class="information">
+                    <a href="https://goo.gl/maps/He6Frzo5JpFTVAZc6" id="location">
+                        <i class="fa fa-street-view" style="color: #001F61;"></i>Xhorxhi Martini; Nd.35; H.1; Tirana; Albania.
+                    </a>
+              </div>
+              <div class="information">
+                <i class="fa fa-inbox" style="color: #e84118;"></i>
+                <p><a href="mailto:FlyAlbania@gmail.com" id="em"></a></p>
+              </div>
+              <div class="information">
+                <i class="fa fa-phone" style="color: chartreuse;"></i>
+                <p><a href="tel:00355-692-020-200" id="tel"></a></p>
+              </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.1079969000198!2d19.821926914794798!3d41.32826490762233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503110c385c28f%3A0x59b5e2af59bd494c!2sRruga%20Xhorxhi%20Martini%2C%20Tirana%2C%20Albania!5e0!3m2!1sen!2s!4v1627568154860!5m2!1sen!2s" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>  
+    </body>
+    <script src="../js/contact.js"></script>
+</html>

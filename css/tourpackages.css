@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #0077b5;
+    margin-bottom: 20px;
+}
+
+.image{
+    margin-bottom: 20px;
+}
+
+.image a{
+    display: inline-block;
+    margin: 0 20px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #e8ecff;
+}
+
+.image a:hover{
+    border: 4px solid #0077b5;
+}
+
+.image a img{
+    width: 100%;
+} 
+
+.section{
+    width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.section:target{
+    height: auto;
+
+}
+
+.cards{
+    height: 330px;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .2);
+}    
+.cards p{
+    width: 880px;
+}
+
+.sidebar{
+    width: 60px;
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    background: #0077b5;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.profile img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #0077b5;
+}
+.profile h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #0077b5;
+    margin-bottom: 8px;
+}
+.profile h4{
+    font-weight: bold;
+}
+

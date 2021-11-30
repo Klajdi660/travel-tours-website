@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+} 
+
+h1{
+    color: #e8ecff;
+    font-weight: bold;
+    margin: -40px 0px 0px 150px;
+    background: rgba(0, 0, 0, .2);
+    width: 160px;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+#team{
+    display: flex;
+}
+
+.image{
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 10px solid #e8ecff;
+    border-radius: 20px;
+}
+
+.details{
+    padding: 20px;
+    background: rgba(0, 0, 0, .2);
+    width: 500px;
+    border-radius: 0px 10px 10px 0px;
+}
+.details strong{
+    color: #0077b5;
+    font-size: 25px;
+    font-weight: bold;
+}
+.details p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    text-align: justify;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 125px;
+    margin-left: -180px;
+}
+.btns a{
+    min-width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.readmore-btn{
+    color: #fff;
+    opacity: 0.8;
+    background-color: #0077b5; 
+    border: 2px solid #0077b5;
+}
+.btns a:hover{
+    background: rgba(0, 0, 0, .2);
+    transition: 0.6s all ease;
+    color: #fff;
+    border: 2px solid #0077b5;
+    letter-spacing: 2px;
+}
+
+.controls{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15%;
+}
+.controls span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #0077b5;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.active{
+    width: 45px !important;
+}
+
+.team{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.space{
+    margin-left: 80px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 1100px;
+    background: #0077b5;
+    width: 60px;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+.menu:hover{
+    width: 230px;
+    background: rgba(0, 0, 0, .2);
+    border: 2px solid #0077b5;
+}
+.menu a{
+    display: inline-block;
+    color: #e8ecff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.menu a i{
+    font-size: 35px;
+    line-height: 60px;
+    margin-left: 15px;
+}
+.menu span{
+    color: #e8ecff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 40px;
+}
+
+.social-links{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.social-links a{
+  color: #e8ecff;
+  text-align: center;
+}
+.social-links a i{
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: #0077b5;
+    line-height: 30px;
+}
+.social-links a i:hover{
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+}
