@@ -1,10 +1,10 @@
-var slide = document.getElementById("slide");
-var control1 = document.getElementById("control1");
-var control2 = document.getElementById("control2");
-var control3 = document.getElementById("control3");
-var control4 = document.getElementById("control4");
-var control5 = document.getElementById("control5");
-var control6 = document.getElementById("control6");
+let slide = document.getElementById("slide");
+let control1 = document.getElementById("control1");
+let control2 = document.getElementById("control2");
+let control3 = document.getElementById("control3");
+let control4 = document.getElementById("control4");
+let control5 = document.getElementById("control5");
+let control6 = document.getElementById("control6");
 
 control1.onclick = function(){
     slide.style.transform = "translateX(0px)";
